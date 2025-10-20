@@ -1,4 +1,7 @@
 <?php 
+
+    require 'config.php';
+
     include 'Artigo.php'; // caminho do servidor
     $artigo = new Artigo();
     $artigos = $artigo->exibirTodos();
